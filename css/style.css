@@ -9,6 +9,12 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+section{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    border: 1px dashed red;
+}
+
 a{
     text-decoration: none;
 }
@@ -17,10 +23,31 @@ li{
     list-style: none;
 }
 
+.container-l{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    min-width: 300px;
+    border: 1px dashed violet;
+}
+
+.container-m{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    min-width: 200px;
+    border: 1px dashed brown;
+}
+
 .d-flex{
     display: flex;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
+/* header-nav */
 header .navbar{
     justify-content: space-between;
     border: 1px dashed black;
@@ -28,12 +55,40 @@ header .navbar{
     padding: .5rem .3rem;
 }
 
-header .navbar .menu-items a{
+.navbar .menu .menu-items a{
     padding: .5rem .8rem;
     font-size: .9rem;
 }
 
-.navbar .menu-left ul{
+.navbar .menu ul{
     align-items: center;
 }
+
+/* section jumbotron */
+
+section.bg-jumbotron{
+    background-color: #B4D0E7;
+}
+
+.row{
+    border: 1px dashed blue;
+}
+
+.col{
+    min-height: 200px;
+    border: 1px dashed green;
+}
+
+.col-l{
+    flex-basis: 65%;
+}
+
+.col-s{
+    flex-basis: 35%;
+}
+
+.col-33{
+    flex-basis: calc(100% / 3);
+}
+
 
