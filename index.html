@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
+    <!--font-awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -39,7 +41,7 @@
                         <a href="">Accedi</a>
                     </li>
                     <li class="menu-items">
-                        <a href="">inizia</a>
+                        <a class="button" href="">inizia</a>
                     </li>
                 </ul>
             </div>
@@ -48,16 +50,20 @@
 
     <main>
         <section class="bg-jumbotron">
-            <div class="container-l">
-                <div class="row">   
-                    <h1 class="jumbotron-title">titolo</h1>                
-                </div>
-                <div class="row d-flex">
+            <div class="container-l">  
+                <h1 class="jumbotron-title">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>                
+                <div class="row">
                     <div class="col col-s">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum officia aspernatur hic ab, accusantium expedita neque, voluptates veniam repellendus beatae, dolorem cupiditate nostrum adipisci? Neque adipisci magni atque facere ea.</p>
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono
+                            accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: 
+                            è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
+                        </p>
+                        <a class="button" href="">inizia la tua prova gratuita</a>
+                        <div class="cancel">annulla in qualsiasi momento</div>
+                        <span><i class="fa-solid fa-3x fa-arrow-down"></i></span>
                     </div>
                     <div class="col col-l">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias illum odio est laudantium necessitatibus, vero, dolorum similique soluta sed eligendi ducimus, aperiam sint porro ab voluptatem blanditiis. Maiores, dolore doloribus.
+                        <img class="jumbo-img" src="img/jumbo.png" alt="jumbo">
                     </div>
                 </div>
             </div>
@@ -65,12 +71,10 @@
 
         <section class="plane">
             <div class="container-m">
+                <h2 class="plane-title">titolo</h2>
+                <input type="radio">fatturazione mensile
+                <input type="radio">fatturazione annuale
                 <div class="row">
-                    <h2 class="plane-title">titolo</h2>
-                    <input type="radio">fatturazione mensile
-                    <input type="radio">fatturazione annuale
-                </div>
-                <div class="row d-flex">
                     <div class="col">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quo blanditiis deleniti iure quia consectetur vero ea fugit, inventore, eum et nobis. Quod sunt eum quia voluptatem consequuntur voluptatum libero.</p>
                     </div>
@@ -81,7 +85,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto alias laboriosam ipsum reiciendis, vel, debitis facere non cumque labore distinctio dignissimos beatae laborum sunt, atque voluptate magnam aliquam numquam nobis!</p>
                     </div>
                 </div>
-                <div class="row d-flex">
+                <div class="row">
                     <div class="col col-l">
                         <h4>titolo</h4>
                         <h5>sottotilo</h5>
@@ -96,7 +100,7 @@
 
         <section class="partner">
             <div class="container-m">
-                <div class="row d-flex">
+                <div class="row">
                     <div class="col col-l">
 
                     </div>
@@ -110,7 +114,7 @@
         <section class="business">
             <div class="container-m">
                 <h2>titolo</h2>
-                <div class="row d-flex wrap">
+                <div class="row wrap">
                     <div class="col col-33">
 
                     </div>
@@ -129,27 +133,71 @@
                     <div class="col col-33">
 
                     </div>
-                </div>
-                </div>
-        </section>
-
-        <section class="clients d-flex">
-            <div class="col col-33"></div>
-            <div class="col col-33"></div>
-            <div class="col col-33"></div>
-        </section>
-
-        <section class="agency">
-            <div class="container-m d-flex">
-                <div class="col col-l">
-
-                </div>
-                <div class="col col-s">
-
                 </div>
             </div>
         </section>
+
+        <section class="team">
+            <div class="container-m">
+                <div class="row">
+                    <div class="col col-l">
+
+                    </div>
+                    <div class="col col-s">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="clients">
+            <div class="row">
+                <div class="col col-33"></div>
+                <div class="col col-33"></div>
+                <div class="col col-33"></div>
+            </div>
+        </section>
+
+        <section class="agency">
+            <div class="container-m">
+                <div class="row">
+                    <div class="col col-l">
+
+                    </div>
+                    <div class="col col-s">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="frequent-questions">
+            <div class="container-m">
+                <h2>titolo</h2>
+                <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, officia ut debitis rerum quae illo aspernatur accusantium quia, tenetur tempora eveniet impedit facere reiciendis, a officiis modi porro laudantium eius.</div>
+                <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, officia ut debitis rerum quae illo aspernatur accusantium quia, tenetur tempora eveniet impedit facere reiciendis, a officiis modi porro laudantium eius.</div>
+                <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, officia ut debitis rerum quae illo aspernatur accusantium quia, tenetur tempora eveniet impedit facere reiciendis, a officiis modi porro laudantium eius.</div>
+                <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, officia ut debitis rerum quae illo aspernatur accusantium quia, tenetur tempora eveniet impedit facere reiciendis, a officiis modi porro laudantium eius.</div>
+            </div>
+
+        </section>
     </main>
+
+    <footer class="footer">
+        <div class="container-l">
+            <div class="row">
+                <div class="col col-s"></div>
+                <div class="col col-s"></div>
+                <div class="col col-s"></div>
+                <div class="col col-s"></div>
+                <div class="col col-s"></div>
+            </div>
+            <div class="row">
+
+            </div>
+        </div>
+
+    </footer>
 
 
 
