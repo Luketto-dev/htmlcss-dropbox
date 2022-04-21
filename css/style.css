@@ -37,6 +37,10 @@ i{
     padding-right: .2rem;
 }
 
+p{
+    line-height: 22px;
+}
+
 .container-l{
     width: 100%;
     max-width: 1100px;
@@ -65,11 +69,11 @@ i{
 }
 
 .col-l{
-    flex-basis: 70%;
+    flex-basis: 68%;
 }
 
 .col-s{
-    flex-basis: 30%;
+    flex-basis: 32%;
 }
 
 .col-33{
@@ -126,20 +130,21 @@ section.bg-jumbotron{
 
 .bg-jumbotron .container-l{
     position: relative;
-    top: 115px;
+    top: 110px;
 }
 
 .bg-jumbotron .jumbotron-title{
-    font-size: 4.5rem;
+    font-size: 4.3rem;
     padding-bottom: 2rem;
 }
 
 .bg-jumbotron .jumbo-img{
     width: 100%;
+    height: 100%;
 }
 
-.bg-jumbotron p{
-    line-height: 22px;
+section.bg-jumbotron p,
+section.partner p{
     padding-bottom: 1.3rem;
 }
 
@@ -161,7 +166,7 @@ section.plane{
 }
 
 .plane .plane-title{
-    font-size: 3rem;
+    font-size: 2.3rem;
     padding-bottom: 2.5rem;
 }
 
@@ -241,6 +246,37 @@ section.plane{
 .card .row .card-paragraph{
     font-size: .9rem;
     padding-top: 2rem;
+}
+
+/* section parner */
+.partner .partner-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.partner .partner-title{
+    padding-bottom: 1rem;
+    padding-top: 3.5rem;
+}
+
+.partner .button{
+    background-color: white;
+    font-size: 1rem;
+    border: 1px solid #2E2E2E;
+    color:black
+}
+
+/* section busines */
+
+.business .business-title{
+    font-size: 2.3rem;
+}
+
+.business .business-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .footer{
