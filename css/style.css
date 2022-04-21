@@ -33,6 +33,10 @@ li{
     list-style: none;
 }
 
+i{
+    padding-right: .2rem;
+}
+
 .container-l{
     width: 100%;
     max-width: 1100px;
@@ -72,8 +76,18 @@ li{
     flex-basis: calc(100% / 3);
 }
 
+.gap-2{
+    gap: 2.5rem;
+}
+
 .d-flex{
     display: flex;
+}
+
+.button{
+    background-color: #0061FF;
+    color: white;
+    padding: .7rem 1rem;
 }
 
 .wrap{
@@ -128,12 +142,6 @@ section.bg-jumbotron{
     padding-bottom: 1.3rem;
 }
 
-.button{
-    background-color: #0061FF;
-    color: white;
-    padding: .5rem 1rem;
-}
-
 .bg-jumbotron .button{
     margin-bottom: 1.3rem;
 }
@@ -142,9 +150,84 @@ section.bg-jumbotron{
     padding-bottom: 4.5rem;
 }
 
-
+/* section plane */
 section.plane{
     padding-top: 7.5rem;
+}
+
+.plane .plane-title{
+    font-size: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+.plane .plane-input{
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.card .card-content{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.card .card-name{
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    text-align: center;
+    font-size: .9rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid black;
+}
+
+.card .card-title{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.card .card-price{
+    font-weight: bold;
+    font-size: .9rem;
+    padding-bottom: 1rem;
+}
+
+.card .month{
+    color: #A9A19C;
+    padding-bottom: 2.5rem;
+}
+
+.card .card-list{
+    font-size: .9rem;
+    padding-bottom: 2rem;
+}
+
+.card .card-list li{
+    padding-bottom: .9rem;
+}
+
+.card .button{
+    display: block;
+    text-align: center;
+    margin-bottom: 1.7rem;
+}
+
+.card .card-buy{
+    font-size: .9rem;
+    padding-bottom: 1.7rem;
+}
+
+.card .card-buy a{
+    text-decoration: underline;
+    color: #87BBFD;
+}
+
+.card .separator{
+    border-bottom: 1px solid #D7D7DA;
+    margin-bottom: 1.7rem;
+    width: 25%;
+}
+
+.card .card-second-title{
+    padding-bottom: 1.7rem;
 }
 
 .footer{
