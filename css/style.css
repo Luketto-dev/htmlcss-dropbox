@@ -165,6 +165,10 @@ section.plane{
     padding-bottom: 2rem;
 }
 
+.card{
+    border: 1px solid black;
+}
+
 .card .card-content{
     padding-left: 2rem;
     padding-right: 2rem;
