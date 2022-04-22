@@ -45,7 +45,6 @@ p{
     max-width: 1100px;
     margin: 0 auto;
     min-width: 300px;
-    border: 1px dashed violet;
 }
 
 .container-m{
@@ -53,7 +52,6 @@ p{
     max-width: 960px;
     margin: 0 auto;
     min-width: 200px;
-    border: 1px dashed brown;
 }
 
 .img-w-100{
@@ -113,8 +111,14 @@ p{
     overflow: auto;
 }
 
-.p-2{
-    padding: 2.5rem;
+.p-y-2{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.p-x-2{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 .aspect-ratio{
@@ -128,7 +132,6 @@ p{
 /* header-nav */
 header .navbar{
     justify-content: space-between;
-    border: 1px dashed black;
     align-items: center;
     padding: 1.5rem .5rem; 
 }
@@ -367,6 +370,33 @@ section.clients{
     text-align: center;
 }
 
+/* section faq */
+section.faq{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.faq .faq-container{
+    border-bottom: 1px solid black;
+}
+
+.faq .faq-single-faq{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid black;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.faq .faq-title{
+    font-size: 2.3rem;
+    padding-bottom: 3rem;
+
+}
+
 /* footer */
 footer{
     color: white;
@@ -392,7 +422,7 @@ footer .separator{
 }
 
 footer .footer-icon{
-    font-size: .9rem;
+    font-size: .8rem;
     color: #b3b3b3;
 }
 
