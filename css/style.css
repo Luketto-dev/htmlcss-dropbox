@@ -57,6 +57,11 @@ p{
     border: 1px dashed brown;
 }
 
+.img-w-100{
+    width: 100%;
+    object-fit: contain;
+}
+
 .row{
     display: flex;
     border: 1px dashed blue;
@@ -99,6 +104,30 @@ p{
     flex-wrap: wrap;
 }
 
+.bg-heavenly{
+    background-color: #B4D0E7;
+}
+
+.filter-invert{
+    filter: invert();
+}
+
+.overflow-auto{
+    overflow: auto;
+}
+
+.p-2{
+    padding: 2.5rem;
+}
+
+.aspect-ratio{
+    aspect-ratio: 1/1;
+}
+
+.bg-gray{
+    background-color: #F5F5F5;
+}
+
 /* header-nav */
 header .navbar{
     justify-content: space-between;
@@ -124,7 +153,6 @@ header .navbar{
 /* section jumbotron */
 
 section.bg-jumbotron{
-    background-color: #B4D0E7;
     margin-top: 95px;
 }
 
@@ -137,12 +165,6 @@ section.bg-jumbotron{
     font-size: 4.3rem;
     padding-bottom: 2rem;
     font-weight: 800;
-}
-
-.bg-jumbotron .jumbo-img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
 }
 
 section.bg-jumbotron p,
@@ -236,9 +258,9 @@ section.plane{
     color: #87BBFD;
 }
 
-.card .separator{
+.separator{
     border-bottom: 1px solid #D7D7DA;
-    margin-bottom: 1.7rem;
+    margin-bottom: 2rem;
     width: 25%;
 }
 
@@ -252,11 +274,6 @@ section.plane{
 }
 
 /* section parner */
-.partner .partner-img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
 
 .partner .partner-title{
     padding-bottom: 1rem;
@@ -276,11 +293,6 @@ section.plane{
     font-size: 2.3rem;
 }
 
-.business .card-img{
-    width: 100%;
-    object-fit: contain;
-}
-
 /* section team */
 .team a{
     text-decoration: underline;
@@ -293,18 +305,57 @@ section.plane{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: calc(100vw / 6);
-    height: calc(100vw / 6);
-}
-
-.square-green{
-    background-color: #A2D39B;
-    border: 15px solid #D1E9CD;
+    width: 50%;
+    aspect-ratio: 1/1;
 }
 
 .clients .clients-img{
     width: 50%;   
-} 
+}
+
+.clients .clients-img.filter-invert{
+    padding-bottom: 2rem;
+}
+
+.clients .clients-paragraph{
+    padding-bottom: 2rem;
+}
+
+.square.square-green{
+    background-color: #A2D39B;
+    border: 15px solid #D1E9CD;
+}
+
+.square.square-amaranth{
+    background-color: #61082B;
+}
+
+.square.square-light-blue{
+    background-color: #0093CE;
+}
+
+.square.square-red{
+    background-color: #FF1C1C;
+}
+
+.square.square-dark-red{
+    background-color: #D5001F;
+}
+
+.square.square-blue{
+    background-color: #0D2481;
+}
+
+.square.square-yellow{
+    background-color: #FFD830;
+}
+
+
+
+
+
+
+
 
 
 .footer{
