@@ -84,6 +84,10 @@ p{
     gap: 2.5rem;
 }
 
+.gap-12{
+    gap: 12rem;
+}
+
 .d-flex{
     display: flex;
 }
@@ -268,6 +272,10 @@ section.plane{
     padding-bottom: 1.7rem;
 }
 
+.card-list li .fa-check{
+    color:#1075FF
+}
+
 .card .row .card-paragraph{
     font-size: .9rem;
     padding-top: 2rem;
@@ -361,6 +369,7 @@ section.clients{
 /* section agency */
 .agency .agency-title{
     font-size: 2.3rem;
+    color: #610C34;
 }
 
 .agency .button{
