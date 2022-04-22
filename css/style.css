@@ -21,7 +21,6 @@ header{
 section{
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-    border: 1px dashed red;
 }
 
 a{
@@ -64,12 +63,10 @@ p{
 
 .row{
     display: flex;
-    border: 1px dashed blue;
 }
 
 .col{
     min-height: 150px;
-    border: 1px dashed green;
     flex-grow: 1;
 }
 
@@ -293,6 +290,10 @@ section.plane{
     font-size: 2.3rem;
 }
 
+.business .card{
+    border: 0;
+}
+
 /* section team */
 .team a{
     text-decoration: underline;
@@ -300,6 +301,10 @@ section.plane{
 }
 
 /* section clints */
+
+section.clients{
+    padding-bottom: 0;
+}
 
 .clients .square{
     display: flex;
@@ -350,16 +355,59 @@ section.plane{
     background-color: #FFD830;
 }
 
+/* section agency */
+.agency .agency-title{
+    font-size: 2.3rem;
+}
 
+.agency .button{
+    display: block;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
 
-
-
-
-
-
-
-.footer{
-    padding-top: 3rem;
+/* footer */
+footer{
+    color: white;
+    background-color: black;
+    padding-top: 5rem;
     padding-bottom: 2.5rem;
 }
+
+footer .footer-list{
+    padding-top: 1.7rem;
+}
+
+footer .footer-list li a{
+    color: white;
+    display: block;
+    font-size: .9rem;
+    padding-bottom: .7rem;
+}
+
+footer .separator{
+    width: 10%;
+    margin-top: 4.5rem;
+}
+
+footer .footer-icon{
+    font-size: .9rem;
+    color: #b3b3b3;
+}
+
+footer .footer-icon span i{
+    padding-left: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
 
