@@ -6,7 +6,7 @@
 
 html{
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header{
@@ -154,34 +154,34 @@ header .navbar{
     align-items: center;
 }
 
-/* section jumbotron */
+/* section jumbo*/
 
-section.bg-jumbotron{
+section.jumbo{
     margin-top: 95px;
 }
 
-.bg-jumbotron .container-l{
+.jumbo .container-l{
     position: relative;
     top: 110px;
 }
 
-.bg-jumbotron .jumbotron-title{
+.jumbo .jumbo-title{
     font-size: 4.3rem;
     padding-bottom: 2rem;
     font-weight: 800;
 }
 
-section.bg-jumbotron p,
+section.jumbo p,
 section.partner p{
     padding-bottom: 1.3rem;
 }
 
-.bg-jumbotron .button{
+.jumbo .button{
     margin-bottom: 1.3rem;
 }
 
-.bg-jumbotron .cancel{
-    padding-bottom: 4.5rem;
+.jumbo .cancel{
+    padding-bottom: 4rem;
 }
 
 /* section plane */
@@ -199,9 +199,25 @@ section.plane{
     padding-bottom: 2.8rem;
 }
 
-.plane .plane-input{
-    display: flex;
-    padding-bottom: 2rem;
+.plane .radio-wrapper{
+    padding-bottom: 2.5rem;
+}
+
+.radio-wrapper div:last-child{
+    margin-left: 3rem;
+}
+
+.radio-wrapper .radio{
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    border: 5px solid #0162FF;
+    display: inline-block; 
+    vertical-align: text-top;  
+}
+
+.radio-wrapper .radio.radio-deactive{
+    border: 2px solid grey;
 }
 
 .card{
@@ -272,6 +288,10 @@ section.plane{
     padding-bottom: 1.7rem;
 }
 
+.card-list li.d-flex{
+    align-items: baseline;
+}
+
 .card-list li .fa-check{
     color:#1075FF
 }
@@ -281,7 +301,7 @@ section.plane{
     padding-top: 2rem;
 }
 
-/* section parner */
+/* section partner */
 
 .partner .partner-title{
     padding-bottom: 1rem;
@@ -385,8 +405,9 @@ section.faq{
     padding-bottom: 4rem;
 }
 
-.faq .faq-container{
-    border-bottom: 1px solid black;
+.faq .faq-title{
+    font-size: 2.3rem;
+    padding-bottom: 3rem;
 }
 
 .faq .faq-single-faq{
@@ -398,13 +419,12 @@ section.faq{
     border-top: 1px solid black;
     font-weight: bold;
     font-size: .9rem;
+} 
+
+.faq .faq-single-faq:last-child{
+    border-bottom: 1px solid black;;
 }
 
-.faq .faq-title{
-    font-size: 2.3rem;
-    padding-bottom: 3rem;
-
-}
 
 /* footer */
 footer{

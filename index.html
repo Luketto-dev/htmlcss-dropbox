@@ -7,6 +7,10 @@
     <title>Dropbox</title>
     <!--font-awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
     <!-- style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -49,9 +53,9 @@
     </header>
 
     <main>
-        <section class="bg-jumbotron bg-heavenly">
+        <section class="jumbo bg-heavenly">
             <div class="container-l">  
-                <h1 class="jumbotron-title">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>                
+                <h1 class="jumbo-title">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>                
                 <div class="row">
                     <div class="col col-s">
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono
@@ -73,11 +77,15 @@
         <section class="plane">
             <div class="container-m">
                 <h2 class="plane-title">Trova il piano business che fa per te</h2>
-                <div class="plane-input">
-                    <input type="radio" id="mensile" value="mensile">
-                    <label for="mensile">Fatturazione mensile</label><br>
-                    <input type="radio" id="annuale" value="annuale">
-                    <label for="mensile">Fatturazione annuale</label><br>
+                <div class="radio-wrapper d-flex">
+                    <div>
+                        <div class="radio"></div>
+                        <span>Fatturazione mensile</span>
+                    </div>
+                     <div>
+                         <div class="radio radio-deactive"></div>
+                         <span>Fatturazione mensile</span>
+                    </div>
                 </div>
 
                 <div class="row gap-2">
@@ -205,7 +213,7 @@
                                         <div>Assistenza personalilzzata per aiutare gli amministratori in una gestione su larga scala</div>
                                     </li>
                                 </ul>
-                                <a class="button" href="">Prova gratis per 30 giorni</a>
+                                <a class="button" href="">Contattaci</a>
                                 <div class="card-buy">
                                     oppure <a href="">acquista ora</a>
                                 </div>
@@ -254,7 +262,7 @@
 
         <!-- section partner -->
         <section class="partner">
-            <div class="container-m">
+            <div class="container-m p-y-2">
                 <div class="row gap-2">
                     <div class="col col-l">
                         <img class="img-w-100" src="img/partner.png" alt="">
@@ -343,7 +351,7 @@
         <!-- section team -->
         <section class="team">
             <div class="container-m p-y-2">
-                <div class="row">
+                <div class="row p-y-2">
                     <div class="col col-l">
                         <h2 class="team-title">Più di 500.000 team utilizzano DropBox Busines</h2>
                         <a href="">Scopri di più sui nostri clienti</a>
@@ -406,7 +414,7 @@
 
         <!-- section agency -->
         <section class="agency bg-heavenly">
-            <div class="container-m">
+            <div class="container-m p-y-2">
                 <div class="row gap-12">
                     <div class="col col-l p-y-2">
                         <h2 class="agency-title">Porta Dropbox Business nella tua azienda</h2>
@@ -421,7 +429,7 @@
         <!-- section faq -->
         <section class="faq">
             <div class="container-m p-y-2">
-                <div class="faq-container">
+                <div class="faq-container p-y-2">
                     <h2 class="faq-title">Domande frequenti</h2>
                     <div class="faq-single-faq">
                         <div>Qual è la differenza tra Dropbox Business Standars e Dropbox Business Advanced?</div>
