@@ -1,0 +1,16 @@
+.faq-single-faq .response{
+    display: none;
+    padding-top: 2rem;
+    font-weight: 400;
+}
+
+.faq-single-faq:hover .response{
+    display: block;
+}
+
+.faq-single-faq:hover i{
+    transform: rotate(180deg);
+}
+
+
+

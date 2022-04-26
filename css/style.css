@@ -213,7 +213,7 @@ section.plane{
     height: 17px;
     border: 5px solid #0162FF;
     display: inline-block; 
-    vertical-align: text-top;  
+    vertical-align: middle;  
 }
 
 .radio-wrapper .radio.radio-deactive{
@@ -411,15 +411,18 @@ section.faq{
 }
 
 .faq .faq-single-faq{
-    display: flex;
-    justify-content: space-between;
     padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     border-top: 1px solid black;
     font-weight: bold;
     font-size: .9rem;
-} 
+}
+
+.faq .faq-single-faq i{
+    float: right;
+}
+
 
 .faq .faq-single-faq:last-child{
     border-bottom: 1px solid black;;
